@@ -1,0 +1,18 @@
+.weather {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.weather img{
+padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
