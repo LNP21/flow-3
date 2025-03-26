@@ -249,3 +249,20 @@ body{
 .cta-button:hover {
     background-color: #c76d2b;
 }
+
+/* Ensure the body takes up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Use flexbox to make the footer stick to the bottom */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make the main content take up remaining space */
+section {
+    flex: 1;
+}
