@@ -1,0 +1,279 @@
+
+
+/* Antons stylesheet */
+.navbar-brand img{
+    width: 60%;
+}
+
+header{
+    background-color: #1E3A56;
+
+}
+
+
+nav{
+    color: #948593;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.btn{
+    background-color: #E58E3C;
+}
+
+
+
+
+.hero-section{
+    background-image: url(Billeder/naturnat-forside.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: #fff;
+    height: 50vh;
+    text-align: center;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+
+.hero-section img{
+    width: 50px;
+}
+
+.hero-section h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: animate 2s infinite;
+}
+@keyframes animate{
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+.hero-section{
+    font-size: 1.25rem;
+}
+
+.hero-section .btn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+
+
+
+@media (max-width: 600px){
+    .hero-section{
+        
+    }
+    .hero-section h1{
+        font-size: 1.5rem;
+    }
+    .hero-section p{
+        font-size: 1rem;
+    }
+}
+
+
+
+/* Victors styleshees */
+.footer {
+    background-color: #1E3A56;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.social-icons a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+/* Ensure the body takes up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Use flexbox to make the footer stick to the bottom */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make the main content take up remaining space */
+section {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+/* Seidas stylesheet */
+body{
+    background: linear-gradient( #14222D, #416F93);}
+
+
+   /* overskrift og undertekst */ 
+.overskrift {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.undertekst {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* img Carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.carousel-indicators button {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+.carousel-caption {
+    width: 70%;
+    color: white;
+    padding: 1.25rem;
+}
+
+.carousel-container {
+    max-width: 600px; 
+    margin: auto; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel-container button:hover{
+    background-color:rgba(245, 245, 220, 0);
+}
+
+
+/*hele Faktaboksen/*
+/* Container */
+.fact-container {
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto; /* Centrerer boksen horisontalt */
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/* Lille orange tekst */
+.small-text {
+    color: #E58E3C;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Stor overskrift */
+.main-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Faktaboks */
+.fact-box {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hver faktapunkt */
+.fact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Ikonboks */
+.icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.icon-box img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Tekstindhold */
+.text-content h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.text-content p {
+    font-size: 14px;
+    color: gray;
+    margin: 5px 0 0;
+}
+
+/* knap */
+.cta-button {
+    background-color: #E58E3C;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #c76d2b;
+}
